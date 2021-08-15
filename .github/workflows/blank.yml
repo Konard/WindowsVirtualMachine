@@ -38,4 +38,4 @@ jobs:
       - name: DIR
         run: dir
       - name: Folders
-        run: ./folders.bat
+        run: start folders.bat
