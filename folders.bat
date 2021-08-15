@@ -1,1 +1,3 @@
-for /d %i in (.\*) do ( echo "%i" )
+pushd .
+for /d %%i in (.\*) do ( echo "%%i" )
+popd
