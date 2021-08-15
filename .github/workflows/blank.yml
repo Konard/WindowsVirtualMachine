@@ -40,4 +40,4 @@ jobs:
       - name: Folders-PowerShell
         run: Get-ChildItem -Directory | ForEach-Object { echo "$($_.Name)" }
       - name: Folders
-        run: cmd.exe /c folders.bat
+        run: start "" /W folders.bat
