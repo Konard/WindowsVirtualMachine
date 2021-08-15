@@ -39,5 +39,6 @@ jobs:
         run: dir
       - name: Folders-PowerShell
         run: Get-ChildItem -Directory | ForEach-Object { echo "$($_.Name)" }
-      - name: Folders
-        run: start "" /D . /W folders.bat
+      - name: Folders-BatchScript
+        run: folders.bat
+        shell: cmd
