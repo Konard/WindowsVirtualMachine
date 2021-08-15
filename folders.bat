@@ -1,3 +1,3 @@
 pushd .
-for /d %%i in (.\*) do ( echo "%%i" )
+for /d %%I in (.\*) do ( echo "%%~nxI" )
 popd
