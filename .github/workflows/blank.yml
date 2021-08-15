@@ -38,4 +38,4 @@ jobs:
       - name: DIR
         run: dir
       - name: Folders
-        run: start "" folders.bat
+        run: Start-Process "cmd.exe" "/c folders.bat"
