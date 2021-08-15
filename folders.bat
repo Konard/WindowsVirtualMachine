@@ -1,1 +1,1 @@
-for /D %G in (".\*") do echo "%~fG"
+for /d %i in (.\*) do ( echo "%i" )
